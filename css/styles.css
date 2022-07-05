@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*section1 header started*/
+header a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 10px;
+	padding: 10px;
+}
+/*section1 header ended*/
+
+/*section2 started*/
+.flowie h2{
+	font-size: 50px;
+}
+/*section2 ended*/
+
+/*section3 navbar started*/
+.navbar a{
+	text-decoration: none;
+}
+/*section3 navbar ended*/
+
+/*section4 banner started*/
+.banner{
+	background-image: url("../images/plant.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner h1{
+	font-size: 80px;
+	font-weight: bolder;
+	padding: 20px;
+}
+.banner p{
+	font-weight: bolder;
+}
+.banner .btn1{
+	border: none;
+	width: 15%;
+	font-size: 15px;
+	padding: 10px;
+}
+.banner .btn2{
+	background-color: #FFFF5C;
+	border: none;
+	width: 10%;
+	font-size: 15px;
+	padding: 10px;
+}
+/*section4 banner ended*/
+
+/*section6 featured items started*/
+.hr{
+	width: 10%;
+	border:1px solid #000 ;
+}
+.feature{
+	background-color: #e9ecef;
+}
+.feature .nav-tabs{
+	border-bottom: 0;
+}
+.feature .card{
+	border: none;
+}
+.feature .cart{
+	background-color: #e9ecef;
+}
+.btncolor{
+	background-color: #7ABA7A; /*card3 */
+}
+.info{
+	border: 8px solid #fff;
+	height: 115vh;
+}
+/*section6 featured items ended*/
+
+/*section7 arrivals started*/
+.arrivals h4{
+	text-align: center;
+}
+.arrivals .main-card{
+	background-color: #e9ecef;
+}
+.btn-light{
+	background-color: #e9ecef;
+}
+.arrivals .newcard{
+	position: relative;
+}
+.arrivals .new{
+	position: absolute;
+	top: 1px;
+	right: 0px;
+}
+.arrivals .hot{
+	position: absolute;
+	top: 40px;
+	right: 0px;
+}
+/*icons started*/
+.arrivals .icon-card{
+	position: relative;
+}
+.arrivals .icon{
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+/*icons ended*/
+/*section7 new arrivals ended*/
+
+/*section8 started*/
+.farmimage{
+	background-image: url("../images/leafs.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 60vh;
+}
+.farmimage h2{
+	font-size: 70px;
+}
+/*section8 ended*/
+
+/*section9 blog started*/
+.date{
+	background-image: url("../images/a12.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: #81B622; 
+	font-weight: bolder;
+}
+.march{
+	background-image: url("../images/a23.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: #81B622; 
+	font-weight: bolder;
+	
+}*/
+/*section9 blog ended*/
+
+/*section10 logo started*/
+.logo{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+/*section10 logo ended*/
+
+/*footer started*/
+footer a{
+	text-decoration: none;
+}
+footer {
+	color:	#D0D0D0;
+}
+footer .sendbtn{
+	background-color: #FFFF5C;
+}
+/*footer ended*/
+
+@media screen and (max-width: 576px){
+
+/*section4 banner started*/
+.banner .btn1{
+	width: 70%;
+}
+.banner .btn2{
+	margin-top: 15px;
+	width: 60%;
+}
+/*section4 banner ended*/
+
+/*section6 featured items started*/
+.info{
+	
+	height: auto;
+}
+/*section6 featured items ended*/
+
+/*footer started*/
+footer p{
+	margin-bottom: 0;
+}
+/*footer ended*/
+}
